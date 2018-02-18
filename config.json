@@ -1,0 +1,14 @@
+{
+  "hydra": {
+    "serviceName": "hello",
+    "serviceIP": "",
+    "servicePort": 0,
+    "serviceType": "",
+    "serviceDescription": "",
+    "redis": {
+      "url": "redis-13006.c2.eu-west-1-3.ec2.cloud.redislabs.com",
+      "port": 13006,
+      "db": 0
+    }
+  }
+}
