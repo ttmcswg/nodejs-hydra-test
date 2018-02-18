@@ -7,7 +7,7 @@ const hydraExpress = require('hydra-express'),
     hydra = hydraExpress.getHydra(),
     config = require('./config.json');
 
-mongoose.connect('mongodb://admin:admin@ds239638.mlab.com:39638/tasks');
+mongoose.connect('mongodb://username:pass@ds239638.mlab.com:39638/tasks');
 
 // app.use(bodyParser.urlencoded({extended: true}));
 // app.use(bodyParser.json());
